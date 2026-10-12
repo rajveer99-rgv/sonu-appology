@@ -130,7 +130,7 @@ h1 em{color:var(--pink);font-weight:500} .hero p{max-width:570px;margin:0 auto;c
 <section class="section" id="forgive">
   <div class="forgive">
     <div class="kicker">the most important question</div>
-    <h2>Can your bestie have a little forgiveness? 🥺</h2>
+    <h2>Can your close friend have a little forgiveness? 🥺</h2>
     <p>You don't have to stop being upset instantly. I just hope you know I'm genuinely sorry, and I'll try to make it right. No pressure — just lots of love and a very sheepish close friend.</p>
     <div class="choices">
       <button class="btn btn-primary" id="yes">Okay, I forgive you 💗</button>
@@ -143,7 +143,7 @@ h1 em{color:var(--pink);font-weight:500} .hero p{max-width:570px;margin:0 auto;c
 
 <footer class="footer">
   <div>For the friend who deserves the proper apology.</div>
-  <div class="forever">Best friends, through the forgetful moments too. ♡</div>
+  <div class="forever">close friends, through the forgetful moments too. ♡</div>
   <div>Made with a full heart & many sorrys</div>
   <div class="tiny">Forever friends · Dipika → Sonu</div>
 </footer>
@@ -158,7 +158,7 @@ function toast(msg){$('toast').textContent=msg;$('toast').classList.add('show');
 function hearts(n=22){const layer=$('hearts');for(let i=0;i<n;i++){let h=document.createElement('span');h.className='float-heart';h.textContent=['💗','♡','💕','✨','🌸'][Math.floor(Math.random()*5)];h.style.left=Math.random()*100+'%';h.style.fontSize=(16+Math.random()*25)+'px';h.style.animationDuration=(3.2+Math.random()*2.5)+'s';h.style.animationDelay=(Math.random()*.6)+'s';layer.appendChild(h);setTimeout(()=>h.remove(),6500)}}
 $('surprise').addEventListener('click',()=>{hearts(32);toast('Surprise! You are appreciated more than this forgetful brain can explain. 💗')});
 $('yes').addEventListener('click',()=>{$('response').textContent='Awww, thank you, Soniya. 🥹💗 Best hug incoming! I’ll do better, promise.';hearts(45)});
-$('still').addEventListener('click',()=>{$('response').textContent='That’s fair, bestie. 🥺 I’ll give you time, listen properly, and still owe you one big sorry.';hearts(10)});
+$('still').addEventListener('click',()=>{$('response').textContent='That’s fair, Soniya. 🥺 I’ll give you time, listen properly, and still owe you one big sorry.';hearts(10)});
 </script>
 </body>
 </html>
